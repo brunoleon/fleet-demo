@@ -2,5 +2,5 @@ defaultNamespace: cattle-resources-system
 dependsOn:
   - name: rke-backup-crd
 helm:
-  chart: rancher-chart/rancher-backup
+  chart: rancher-charts/rancher-backup
   releaseName: rancher-backup
