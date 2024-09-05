@@ -1,6 +1,6 @@
 defaultNamespace: cattle-resources-system
 dependsOn:
-  - name: helm-local-rke-backup-crd
+  - name: helm-rke-backup-crd
 helm:
   repo: https://charts.rancher.io
   chart: rancher-backup
