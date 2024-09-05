@@ -1,5 +1,4 @@
 defaultNamespace: cattle-resources-system
 helm:
-  repo: https://git.rancher.io/charts
-  chart: rancher-backup-crd
+  chart: https://charts.rancher.io/rancher-backup-crd
   releaseName: rancher-backup-crd
